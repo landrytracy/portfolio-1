@@ -1,10 +1,47 @@
 header {
   display: flex;
-  padding: 50px;
+  padding: 10px;
   position: fixed;
   background-color: coral;
-
+  border-radius: 100px;
 }
-.navbar{
- padding: 20px;
+body {
+  padding: 10px;
+  position: fixed;
+  background-color: rgb(95, 150, 160);
+}
+
+nav ul {
+  position: fixed;
+}
+
+.navbar {
+  padding: 10px;
+}
+.navbar a {
+  position: relative;
+  font-size: medium;
+  color: blueviolet;
+  text-decoration: wavy;
+}
+h1 {
+  position: relative;
+  color: brown;
+  border-radius: 150px;
+  transition: none;
+}
+h2 {
+  color: rgb(165, 42, 149);
+  border-radius: 100px;
+  background-color: blueviolet;
+}
+h3 {
+  color: crimson;
+  background-color: darkcyan;
+  border-radius: 150px;
+}
+h4 {
+  color: blueviolet;
+  background-color: burlywood;
+  border-radius: 50px;
 }
